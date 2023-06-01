@@ -7,7 +7,7 @@ client = discord.Client(intents=intents)
 tree = app_commands.CommandTree(client)
 
 GUILD_ID = 0000 # Discord server id, right click on the server / "Copy Server ID"
-MUTED_ROLE_ID = 0000 # muted role id, right click on the role / "Cope Role ID"
+MUTED_ROLE_ID = 0000 # muted role id, right click on the role / "Copy Role ID"
 CHECK_TIMING = 5 # how often the bot checks for users, set it low to avoid too much error on the length of the mute.
 
 TOKEN = "DISCORD-BOT-TOKEN" # Discord bot token
