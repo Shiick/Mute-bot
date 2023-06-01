@@ -3,8 +3,10 @@
 A Discord bot that unmute users automatically once their punishment ends.
 
 ## Commands:
-- /mute <user> <duration>
-- /unmute <user>
+- `/mute <user> <duration>`
+- `/unmute <user>`
+
+* required
 
 ### How it works:
 Every 5 seconds (change this on line 11), the bot will check for all the muted users and remove 5 seconds to their mute duration. Once it hits 0 seconds left, it will unmute the user by itself.
